@@ -1,0 +1,12 @@
+$primary-color:               #7FB998;
+$secondary-color:             white;
+
+$primary-text-color:          black;
+$secondary-text-color:        white;
+
+%imagesFilter {
+  -webkit-filter: saturate(1.4) contrast(1.1);
+ filter: saturate(1.4) contrast(1.1);
+ -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+}

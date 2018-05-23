@@ -1,0 +1,35 @@
+.favorites {
+  &--header {
+    text-align: center;
+    color: white;
+  }
+  &--images {
+    padding: 1rem 0 1rem 2rem;
+    @media screen and (min-width: 1280px) {
+      padding: 1rem 0 1rem 3.5rem;
+    }
+    @media screen and (min-width: 1440px) {
+      padding: 1rem 0 1rem 4.5rem;
+    }
+    img {
+      width: 45%;
+      height: 300px;
+      @media screen and (min-width: 1280px) {
+        width: 21%;
+      }
+      border: 10px solid white;
+      margin: 0.5rem;
+    }
+  }
+  &--button {
+    margin-left: 46.5%;
+    height: 30px;
+    width: 100px;
+    background: white;
+    border: 0;
+    cursor: pointer;
+  }
+  &--selected {
+    border: 2px solid red;
+  }
+}

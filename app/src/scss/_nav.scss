@@ -1,0 +1,39 @@
+@import 'variables';
+
+.nav-links {
+  background: black;
+  li {
+    display: inline-block;
+  }
+  .links {
+    margin: 0;
+    li {
+      color: white;
+    }
+    &--heart {
+      li {
+        float: right;
+        margin: 0.2rem 3rem 0 0;
+        text-align: center;
+        font-size: 2.5rem;
+        color: red;
+        height: 30px;
+      }
+      span {
+        color: white;
+        font-size: 0.7rem;
+        position: relative;
+        top: -2.2rem;
+      }
+    }
+  }
+}
+
+#favCount {
+  top: -0.6rem;
+  right: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
